@@ -1,0 +1,27 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.ceedot-rock/slid-phi-labs",
+  "title": "Slid Phi Labs",
+  "description": "CuNi exactness, Chamber two-key JSON, Agent-Rider. Lab signup, agent keys, x402 catalog.",
+  "version": "1.17.0",
+  "websiteUrl": "https://www.slidphilabs.com",
+  "repository": {
+    "url": "https://github.com/ceedot-rock/slid-phi-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://www.slidphilabs.com/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "spl-pay-per-suite",
+      "version": "1.1.8",
+      "transport": { "type": "stdio" },
+      "runtimeHint": "npx"
+    }
+  ]
+}
