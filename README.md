@@ -19,7 +19,7 @@ npx -y spl-pay-per-suite mcp
 Agent-Rider (signed agent identity):
 
 ```
-https://agentrider.vercel.app/api/mcp
+https://agentrider.fly.dev/api/mcp
 ```
 
 ## Registry names
